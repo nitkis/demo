@@ -12,7 +12,7 @@ public class HelloWorldController {
     @ResponseBody
     public HelloWorldResponse get(@RequestBody HelloWordRequest request) {
         if (request.getName() == null) {
-            return new HelloWorldResponse("invalid request");
+            return new HelloWorldResponse("invalid request entered");
         }
 
         if (request.getName().equals("nitin")) {
