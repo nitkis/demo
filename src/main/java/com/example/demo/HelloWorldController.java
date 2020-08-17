@@ -18,7 +18,7 @@ public class HelloWorldController {
         if (request.getName().equals("nitin kishore")) {
             return new HelloWorldResponse("hi nitin kishore");
         } else {
-            return new HelloWorldResponse("hi neha");
+            return new HelloWorldResponse("hi neha kishore, bye neha kishore");
         }
     }
 }
