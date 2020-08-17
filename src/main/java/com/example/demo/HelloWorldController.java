@@ -15,8 +15,8 @@ public class HelloWorldController {
             return new HelloWorldResponse("invalid request entered on git hub");
         }
 
-        if (request.getName().equals("nitin")) {
-            return new HelloWorldResponse("hi nitin");
+        if (request.getName().equals("nitin kishore")) {
+            return new HelloWorldResponse("hi nitin kishore");
         } else {
             return new HelloWorldResponse("hi neha");
         }
